@@ -85,5 +85,14 @@ main > article
 main > article > .article-section
 {
     height: 100%;
-    border: 1px solid var(--border-color);
+}
+main > article > .article-description-section,
+main > article > .article-nav-section
+{
+    border-left: 1px solid var(--border-color);
+}
+main > article > .article-title-section,
+main > article > .article-nav-section
+{
+    border-top: 1px solid var(--border-color);
 }
