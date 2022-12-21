@@ -126,6 +126,10 @@ main > article > .article-description-section
     align-items: center;
     justify-content: center;
 }
+main > article > .article-description-section > p
+{
+    color: #747083;
+}
 main > article > .article-nav-section
 {
     display: flex;
